@@ -30,11 +30,9 @@ public class HomeTask8 {
         System.out.print("Введіть число для пошуку: ");
         int number = incomeValue.nextInt();
 
-        /*
-        Arrays.sort(arrayInt);
-        int foundIndex = Arrays.binarySearch(arrayInt, number);
-        System.out.print("Індекс числа " + number + " у відсортованому масиві: " + foundIndex);
-        */
+//        Arrays.sort(arrayInt);
+//        int foundIndex = Arrays.binarySearch(arrayInt, number);
+//        System.out.print("Індекс числа " + number + " у відсортованому масиві: " + foundIndex);
 
         // search entered index using binary search
         int result = binarySearch(newArrayInt, number);
